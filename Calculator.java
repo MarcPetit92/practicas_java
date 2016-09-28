@@ -284,7 +284,7 @@ public class Calculator extends javax.swing.JFrame {
     {
         //recuperamos la ultima operacion
         this.operador = operacion;
-        //recuperammos el numero anterior
+        //recuperamos el numero anterior
         this.num_anterior = Integer.parseInt(this.txt_pantalla.getText());
         //borramos la pantalla
         txt_pantalla.setText("");
